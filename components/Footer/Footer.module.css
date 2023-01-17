@@ -1,0 +1,33 @@
+.wrapper {
+    padding-left: 73px;
+    padding-right: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.wrapper > a {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+
+.twitter {
+    background-image: url('../src/images/twitter.png');
+}
+
+.facebook {
+    background-image: url('../src/images/facebook.png');
+}
+
+.instagram {
+    background-image: url('../src/images/instagram.png');
+}
+
+.github {
+    background-image: url('../src/images/github.png');
+}

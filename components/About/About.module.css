@@ -1,0 +1,19 @@
+.wrapper {
+    width: 317px;
+    padding-left: 36px;
+    padding-right: 34px;
+    background: #1A1B21;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.text {
+    text-align: left;
+    font-size: 10.24px;
+    color: #DCDCDC;
+}

@@ -1,0 +1,83 @@
+.about_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1A1B21;
+}
+
+.avatar {
+    width: 317px;
+    height: 317px;
+}
+
+.title {
+    margin-top: 21px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+}
+
+.subtitle {
+    margin-top: 0px;
+    margin-bottom: 9px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F3BF99;
+}
+
+.link {
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #F5F5F5;
+    transition: all 500ms;
+}
+
+.link:hover, .link:focus {
+    color: #5093E2;
+}
+
+.button_wrapper {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button_wrapper > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    background-repeat: no-repeat;
+    background-size: 13px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn_mail {
+    margin-right: 20px;
+    padding-left: 30px;
+    color: #374151;
+    background: #fff;
+    background-image: url('../src/images/mail-small.png');
+    background-position: top 49% left 25%;
+    border-color: #D1D5DB;
+}
+
+.btn_linkedin {
+    padding-left: 25px;
+    color: #fff;
+    background: #5093E2;
+    background-image: url('../src/images/linkedin-small.png');
+    background-position: top 49% left 20%;
+    border-color: #5093E2;
+}
