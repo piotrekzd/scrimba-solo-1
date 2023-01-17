@@ -17,17 +17,17 @@
 }
 
 .twitter {
-    background-image: url('./src/images/twitter.png');
+    background-image: url('../src/images/twitter.png');
 }
 
 .facebook {
-    background-image: url('./src/images/facebook.png');
+    background-image: url('../src/images/facebook.png');
 }
 
 .instagram {
-    background-image: url('./src/images/instagram.png');
+    background-image: url('../src/images/instagram.png');
 }
 
 .github {
-    background-image: url('./src/images/github.png');
+    background-image: url('../src/images/github.png');
 }
