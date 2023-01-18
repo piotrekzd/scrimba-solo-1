@@ -3,7 +3,7 @@ import styles from './Info.module.css';
 export const Info = () => {
     return (
         <div className={styles.about_wrapper}>
-            <img src='/src/images/avatar.png' className={styles.avatar} />
+            <img src='./src/images/avatar.png' className={styles.avatar} />
             <h1 className={styles.title}>Piotr Zdebski</h1>
             <h2 className={styles.subtitle}>Junior Frontend Developer</h2>
             <a href="_blank" className={styles.link}>laurasmith.website</a>
